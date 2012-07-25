@@ -9,21 +9,10 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote name="mozilla"
 	  fetch="git://github.com/mozilla/" />
-  <default revision="refs/tags/android-4.0.4_r2.1"
+  <default revision="refs/tags/android-4.0.3_r1"
            remote="linaro"
            sync-j="4" />
 
-  <!-- Gonk specific things and forks -->
-  <project path="build" name="platform_build" remote="b2g" revision="master">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="dalvik" name="fake-dalvik" remote="b2g" revision="master" />
-  <project path="gaia" name="gaia" remote="b2g" revision="master" />
-  <project path="gecko" name="mozilla-central" remote="mozilla" revision="master" />
-  <project path="gonk-misc" name="gonk-misc" remote="b2g" revision="master" />
-  <project path="rilproxy" name="rilproxy" remote="b2g" revision="master" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="b2g" revision="master"/>
-  <project path="external/qemu" name="platform_external_qemu" remote="b2g" revision="master"/>
 
   <!-- Stock Android things -->
   <project path="abi/cpp" name="platform/abi/cpp" />
@@ -94,12 +83,5 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Emulator specific things -->
-  <project path="development" name="platform/development" revision="435a7da6d02083ba6583e1654db351991cf79578" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="master" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
-  <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
 
 </manifest>
