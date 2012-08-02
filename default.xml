@@ -2,8 +2,7 @@
 <manifest>
 
   <remote  name="korg"
-           fetch="gitosis@sprdroid.git.spreadtrum.com.cn:android/"
-           review="review.source.spreadtrum.com/gerrit/" />
+           fetch="ssh://gitb2g@58.246.137.26/b2g/"
   <remote name="b2g"
           fetch="git://github.com/weideng/" />
   <remote name="mozilla"
