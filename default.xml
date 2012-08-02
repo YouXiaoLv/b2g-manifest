@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="korg"
-           fetch="ssh://gitb2g@58.246.137.26/b2g/"
+           fetch="ssh://gitb2g@58.246.137.26/b2g/">
   <remote name="b2g"
           fetch="git://github.com/weideng/" />
   <remote name="mozilla"
