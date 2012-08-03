@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="ssh://gitb2g@58.246.137.26/b2g/" />
   <remote  name="b2g"
-           fetch="https://github.com/weideng/" />
+           fetch="git://github.com/weideng/" />
   <default revision="sprdroid4.0.3_vlx_3.0_b2g"
            remote="aosp"
            sync-j="4" />
