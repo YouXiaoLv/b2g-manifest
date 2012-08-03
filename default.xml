@@ -14,7 +14,7 @@
   <project name="platform_build" path="build" remote="b2g" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project name="fake-dalvik" path="dalvik" remote="b2g" remoterevision="master" />
+  <project name="fake-dalvik" path="dalvik" remote="b2g" revision="master" />
   <project name="gaia" path="gaia" remote="b2g" revision="master" />
   <project name="mozilla-central" path="gecko" remote="b2g" revision="master" />
   <project name="gonk-misc" path="gonk-misc" remote="b2g" revision="master" />
